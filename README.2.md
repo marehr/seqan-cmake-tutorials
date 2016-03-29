@@ -130,3 +130,7 @@ execute the binary
 ```terminal
 120 = factorial(6)
 ```
+
+----------
+
+[prev](README.1.md) · [next](README.3.md)

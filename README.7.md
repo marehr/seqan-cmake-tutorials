@@ -148,3 +148,7 @@ Score: -2
         || || ||
         CDEFGAHC
 ```
+
+----------
+
+[prev](README.6.md)

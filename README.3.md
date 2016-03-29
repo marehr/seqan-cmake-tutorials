@@ -150,3 +150,7 @@ bin/hello
 120 = factorial(6)
 Hello World
 ```
+
+----------
+
+[prev](README.2.md) · [next](README.4.md)
