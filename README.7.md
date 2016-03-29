@@ -10,7 +10,7 @@ mkdir ~/tutorials/builds/gcc
 mkdir ~/tutorials/builds/clang
 ```
 
-### What where the parameters again?
+### What were the parameters again?
 
 #### gcc
 ```console
