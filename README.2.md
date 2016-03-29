@@ -51,7 +51,7 @@ size_t factorial(size_t n)
 ```cmake
 # ~/tutorials/test_factorial/CMakeLists.txt
 cmake_minimum_required(VERSION 3.0)
-project(factorial)
+project(factorial CXX)
 
 # add the executable
 add_executable(factorial [- fill in the source files -])

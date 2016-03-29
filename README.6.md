@@ -41,7 +41,7 @@ int main()
 
 ```cmake
 cmake_minimum_required(VERSION 3.1)
-project(seqan_app2)
+project(seqan_app2 CXX)
 
 # Add the executable
 add_executable (seqan_app2 seqan_app.cpp)

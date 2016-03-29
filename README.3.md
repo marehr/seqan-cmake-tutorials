@@ -9,6 +9,8 @@ That's cool, but we had to clean the build directory. Can we build all at once?
 
 cmake_minimum_required(VERSION 3.0)
 
+project(build_all CXX)
+
 add_subdirectory(test_hello_world)
 add_subdirectory(test_factorial)
 ```

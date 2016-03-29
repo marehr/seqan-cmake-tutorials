@@ -46,7 +46,7 @@ size_t factorial(size_t n);
 # ~/tutorials/lib_factorial/CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.0)
-project(factorial_lib)
+project(factorial_lib CXX)
 
 # build shared library
 add_library(factorial_lib SHARED factorial.cpp factorial.h)
@@ -123,7 +123,7 @@ int main()
 # ~/tutorials/test_factorial_shared/CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.0)
-project(factorial_shared)
+project(factorial_shared CXX)
 
 # add the executable
 add_executable(factorial_shared factorial_main.cpp)
@@ -189,7 +189,7 @@ For that change the CMakeLists.txt
 # ~/tutorials/lib_factorial/CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.0)
-project(factorial_lib)
+project(factorial_lib CXX)
 
 # build shared library
 add_library(factorial_lib SHARED factorial.cpp factorial.h)
@@ -213,7 +213,7 @@ This basically creates `~/tutorials/build/include/factorial_lib/` and copies the
 # ~/tutorials/test_factorial_shared/CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.0)
-project(factorial_shared)
+project(factorial_shared CXX)
 
 # header files of shared library
 include_directories(${CMAKE_BINARY_DIR}/include/factorial_lib)

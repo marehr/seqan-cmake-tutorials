@@ -60,7 +60,7 @@ int main()
 # ~/tutorials/seqan_app/CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.1)
-project(seqan_app)
+project(seqan_app CXX)
 
 # point to the headers
 # Note: ${CMAKE_CURRENT_SOURCE_DIR}/../ is ~/tutorials/

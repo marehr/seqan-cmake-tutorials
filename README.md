@@ -20,7 +20,7 @@ mkdir ~/tutorials
 cd ~/tutorials
 ```
 
-## Hello world with cmake
+## 01 Hello world with cmake
 
 ```console
 mkdir ~/tutorials/test_hello_world
@@ -87,7 +87,7 @@ Creating a minimal cmake file.
 #~/tutorials/test_hello_world/CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.0)
-project(hello)
+project(hello CXX)
 
 # add the executable
 add_executable(hello hello.cpp)
