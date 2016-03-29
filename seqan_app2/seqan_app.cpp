@@ -15,7 +15,7 @@ int main()
     resize(rows(align), 2);
     assignSource(row(align, 0), seq1);
     assignSource(row(align, 1), seq2);
- 
+
     int score = globalAlignment(align, Score<int, Simple>(0, -1, -1));
     std::cout << "Score: " << score << std::endl;
     std::cout << align << std::endl;

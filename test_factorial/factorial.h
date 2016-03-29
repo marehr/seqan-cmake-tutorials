@@ -3,6 +3,9 @@
 
 #include <stdlib.h>
 
+/**
+ * calculate n!
+ */
 size_t factorial(size_t n)
 {
     size_t fac = 1;

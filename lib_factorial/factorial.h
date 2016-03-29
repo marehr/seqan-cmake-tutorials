@@ -9,6 +9,9 @@
 #define __shared_export __declspec(dllexport)
 #endif
 
+/**
+ * calculate n!
+ */
 __shared_export
 size_t factorial(size_t n);
 

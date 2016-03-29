@@ -18,7 +18,7 @@ find_package (SeqAn REQUIRED)
 
 # Was SeqAn included?
 if (NOT (SEQAN_FOUND))
-	message (FATAL_ERROR "SeqAn not found")
+    message (FATAL_ERROR "SeqAn not found")
 endif ()
 
 # Add include directories set by find_package (SeqAn).
