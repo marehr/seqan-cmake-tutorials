@@ -72,14 +72,7 @@ cmake [- fill in the path -]
 ```
 
 ```terminal
--- The C compiler identification is GNU 4.8.5
 -- The CXX compiler identification is GNU 4.8.5
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
 -- Check for working CXX compiler: /usr/bin/c++
 -- Check for working CXX compiler: /usr/bin/c++ -- works
 -- Detecting CXX compiler ABI info

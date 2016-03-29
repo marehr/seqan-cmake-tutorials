@@ -37,14 +37,8 @@ generate make files
 ```
 
 ```terminal
--- The C compiler identification is GNU 4.8.5
+rm: cannot remove ‘CMake*’: No such file or directory
 -- The CXX compiler identification is GNU 4.8.5
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
 -- Check for working CXX compiler: /usr/bin/g++
 -- Check for working CXX compiler: /usr/bin/g++ -- works
 -- Detecting CXX compiler ABI info
@@ -54,7 +48,7 @@ generate make files
 CMake Warning (dev) at seqan/util/cmake/FindSeqAn.cmake:145 (message):
   GCC version (4.8.5) should be at least 4.9! Anything below is untested.
 Call Stack (most recent call first):
-  seqan_app2/CMakeLists.txt:20 (find_package)
+  seqan_app2/CMakeLists.txt:22 (find_package)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Looking for C++ include execinfo.h
@@ -113,14 +107,8 @@ generate make files
 ```
 
 ```terminal
--- The C compiler identification is GNU 4.8.5
+rm: cannot remove ‘CMake*’: No such file or directory
 -- The CXX compiler identification is Clang 3.6.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
 -- Check for working CXX compiler: /usr/bin/clang++-3.6
 -- Check for working CXX compiler: /usr/bin/clang++-3.6 -- works
 -- Detecting CXX compiler ABI info

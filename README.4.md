@@ -61,6 +61,8 @@ Notice the change, it is now a library.
 
 cmake_minimum_required(VERSION 3.0)
 
+project(build_all CXX)
+
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
@@ -139,6 +141,8 @@ target_link_libraries(factorial_shared factorial_lib)
 
 cmake_minimum_required(VERSION 3.0)
 
+project(build_all CXX)
+
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
@@ -166,7 +170,7 @@ make
 [ 75%] Built target factorial_lib
 Scanning dependencies of target factorial_shared
 [100%] Building CXX object test_factorial_shared/CMakeFiles/factorial_shared.dir/factorial_main.cpp.o
-/home/marehr/tutorials/test_factorial_shared/factorial_main.cpp:1:23: fatal error: factorial.h: No such file or directory
+/home/marehr/tutorials/test_factorial_shared/factorial_main.cpp:3:23: fatal error: factorial.h: No such file or directory
  #include <factorial.h>
                        ^
 compilation terminated.

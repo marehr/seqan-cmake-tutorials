@@ -20,7 +20,8 @@ add_subdirectory(test_factorial)
 clean build folder
 
 ```console
-cd ~/tutoials/build
+cd ~/tutorials/build
+rm -r *
 ```
 
 generate makefiles
@@ -30,14 +31,7 @@ cmake ..
 ```
 
 ```terminal
--- The C compiler identification is GNU 4.8.5
 -- The CXX compiler identification is GNU 4.8.5
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
 -- Check for working CXX compiler: /usr/bin/c++
 -- Check for working CXX compiler: /usr/bin/c++ -- works
 -- Detecting CXX compiler ABI info
@@ -107,6 +101,8 @@ One folder would be nicer. So change the top-level CMakeLists.txt
 # ~/tutorials/CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.0)
+
+project(build_all CXX)
 
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
