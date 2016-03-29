@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-project(factorial)
+project(factorial CXX)
 
 # add the executable
 add_executable(factorial factorial_main.cpp factorial.h)

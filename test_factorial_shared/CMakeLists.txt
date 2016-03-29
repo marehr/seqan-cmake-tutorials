@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(factorial_shared)
+project(factorial_shared CXX)
 
 
 # header files of shared library

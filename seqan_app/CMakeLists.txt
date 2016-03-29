@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-project(seqan_app)
+project(seqan_app CXX)
 
 # point to the headers
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../seqan/include)

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(factorial_lib)
+project(factorial_lib CXX)
 
 # build shared library
 add_library(factorial_lib SHARED factorial.cpp factorial.h)
