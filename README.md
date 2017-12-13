@@ -4,6 +4,8 @@ This tutorial was written for a course named [PMBS](http://www.mi.fu-berlin.de/w
 
 Since this information is already two years old, it might be at some points out-dated, but should be in general usable as a reference.
 
+For an up-to-date user-guide for cmake, see our docs: http://seqan.readthedocs.io/en/master/Infrastructure/Use/FindSeqAnCMake.html
+
 ------
 
 # seqan cmake tutorial
