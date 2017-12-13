@@ -1,3 +1,11 @@
+# PREFACE
+
+This tutorial was written for a course named [PMBS](http://www.mi.fu-berlin.de/w/ABI/PMSB_Seqan_2016) (summer 2016) for bachelor students at the Free University Berlin. In this tutorial session (2h) we looked at, what cmake is, what it does and how you use it to incoperate our library [SeqAn](http://github.com/seqan/seqan) into your own project.
+
+Since this information is already two years old, it might be at some points out-dated, but should be in general usable as a reference.
+
+------
+
 # seqan cmake tutorial
 
 ## preliminaries
