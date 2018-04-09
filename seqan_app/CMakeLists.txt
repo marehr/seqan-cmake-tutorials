@@ -7,7 +7,6 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../seqan/include)
 # add the executable
 add_executable(seqan_app seqan_app.cpp)
 
-# require c++11
-set_property(TARGET seqan_app PROPERTY CXX_STANDARD 11)
+# require c++14
+set_property(TARGET seqan_app PROPERTY CXX_STANDARD 14)
 set_property(TARGET seqan_app PROPERTY CXX_STANDARD_REQUIRED ON)
-

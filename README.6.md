@@ -48,11 +48,11 @@ project(seqan_app2 CXX)
 # Add the executable
 add_executable (seqan_app2 seqan_app.cpp)
 
-# Require C++11
-target_compile_features(seqan_app2 PRIVATE cxx_constexpr)
+# Require C++14
+target_compile_features(seqan_app2 PRIVATE cxx_decltype_auto)
 
 # You don't have cmake 3.1? Comment out the above. And comment in the below.
-# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 set(CXX11_FOUND TRUE)
 

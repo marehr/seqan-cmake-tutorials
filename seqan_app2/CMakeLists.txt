@@ -4,9 +4,8 @@ project(seqan_app2 CXX)
 # Add the executable
 add_executable (seqan_app2 seqan_app.cpp)
 
-# Require C++11
-target_compile_features(seqan_app2 PRIVATE cxx_constexpr)
-set(CXX11_FOUND TRUE)
+# Require C++14
+target_compile_features(seqan_app2 PRIVATE cxx_decltype_auto)
 
 # Set paths for FindSeqAn.cmake
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/../seqan/util/cmake")
@@ -32,4 +31,3 @@ target_link_libraries (seqan_app2 ${SEQAN_LIBRARIES})
 
 # Add CXX flags found by find_package (SeqAn).
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${SEQAN_CXX_FLAGS}")
-
